@@ -83,3 +83,109 @@
         width: 90%;
     }
 }
+/* Medium devices (landscape tablets, 640px) */
+@media only screen and (max-width: 640px) {
+   
+    .blueshape {
+        left: -2%;
+    }
+
+    .main-box {
+        width: 35em;
+        height: 30em;
+    }
+
+    .adidas_image {
+        width: 35em;
+        height: 35em;
+    }
+
+    .firstadidas {
+        width: 10em;
+        height: 10em;
+        top: 17%;
+        left: 65%;
+    }
+
+    h1 {
+        font-size: 2em;
+        top: 37%;
+        left: 25%;
+    }
+
+    .btn {
+        top: 45%;
+    }
+
+    .slidecontrols {
+        top: 55%;
+    }
+
+    h2 {
+        font-size: 2em;
+        word-spacing: 0;
+    }
+
+    p {
+        font-size: 1em;
+    }
+
+    h3 {
+        font-size: 1.5em;
+    }
+
+    .footer-social {
+        width: 50%;
+    }
+}
+
+/* Medium devices (Mobiles, 360px) */
+@media only screen and (max-width: 360px) {
+    .main-box {
+        width: 22.5em;
+        height: 18em;
+    }
+
+    .firstadidas {
+        width: 7em;
+        height: 7em;
+    }
+
+    .adidas_image {
+        width: 22.5em;
+        height: 20em;
+    }
+
+    .blueshape {
+        display: none;
+    }
+
+    header {
+        height: 11vh;
+    }
+
+    .adidas {
+        width: 8em;
+        height: 6em;
+        margin-left: 7em;
+    }
+
+    h1 {
+        font-size: 2em;
+        left: 3%;
+        top: 28%;
+    }
+
+    .slidecontrols {
+        top: 35%;
+        height: .2em;
+    }
+
+    .btn {
+        font-size: 1em;
+    }
+
+    .footer-social {
+        width: 90%;
+    }
+}
