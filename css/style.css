@@ -46,3 +46,113 @@ header {
      border-radius: 100%;
 	 z-index:2;
 } 
+
+/*------Navigation links------*/
+
+.main-nav  ul {
+    display: flex;
+    color: black;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 2em;
+    margin: 1.5em;
+}
+
+.main-nav ul a {
+    margin-right: 1em;
+    color: black;
+}
+
+.main-nav  ul a:hover {
+    color: #669A7E;
+    border-bottom: .125em solid #fff;
+    transition: color .2s, border-bottom .2s;
+}
+
+.main-box {
+    width: 50em;
+    height: 40em;
+    overflow: hidden;
+    margin: 0 auto;
+    padding-top: 2em;
+    text-align: center;
+}
+
+ .adidas_image {
+	 width: 50em;
+     height: 50em;
+     border-radius: 50%;
+     z-index: 1;
+     position: relative;
+    }
+
+.firstadidas {
+    width: 15em;
+    height: 15em;
+    border-radius: 50% ; 
+    z-index: 2;
+    position: absolute;
+    top: 20%;
+    left: 60%;
+}
+
+.slidecontrols{
+    display: block;
+    position: absolute;
+    width: 20%;
+    top: 70%;
+    left: 40%;
+    z-index: 3;
+    
+    }
+   
+ .btn {
+    position: absolute;
+    top:60%;    
+    left: 40%;
+    width: 20%;
+    background-color:#f13b03;
+    padding: .5em 1em;
+    border: none;
+    border-radius: 10em;
+    z-index: 4;
+    font-size: 2em;
+    color: #ffffff;
+    font-weight: bolder;
+    letter-spacing: .1em;
+
+}
+
+h1 {
+    position: absolute;
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'constantia',Arial, Helvetica, sans-serif;
+    top: 50%;
+    left: 37%;
+    z-index: 6;
+
+}
+
+.about {
+    text-align: center;
+}
+
+h2 {
+    font-size: 4em;
+    text-transform: uppercase;
+    font-family: 'Roboto Slab', serif;
+    word-spacing: .250em;
+    letter-spacing: .125em;
+    margin: 1em 0;
+}
+
+p {
+    font-size: 2em;
+    line-height: 145%;
+    margin-bottom: 0;
+    padding-bottom: 2em;
+    line-break: auto;
+    width: 50%;
+    margin: 0 auto;
+}
