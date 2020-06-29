@@ -59,3 +59,27 @@
     }
 
 }
+/* Medium devices (landscape tablets, 800px) */
+@media only screen and (max-width: 800px) {
+    .main-nav {
+        display: none;
+    }
+
+    .btn {
+        width: 50%;
+        left: 25%;
+    }
+
+    h1 {
+        left: 20%;
+    }
+
+    h2 {
+        font-size: 3em;
+    }
+
+    p {
+        font-size: 1.3em;
+        width: 90%;
+    }
+}
