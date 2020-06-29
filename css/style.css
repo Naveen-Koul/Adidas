@@ -100,7 +100,7 @@ header {
     display: block;
     position: absolute;
     width: 20%;
-    top: 70%;
+    top: 65%;
     left: 40%;
     z-index: 3;
     
@@ -108,7 +108,7 @@ header {
    
  .btn {
     position: absolute;
-    top:60%;    
+    top:55%;    
     left: 40%;
     width: 20%;
     background-color:#f13b03;
@@ -128,8 +128,8 @@ h1 {
     font-size: 3em;
     font-weight: bold;
     font-family: 'constantia',Arial, Helvetica, sans-serif;
-    top: 50%;
-    left: 37%;
+    top: 45%;
+    left: 39%;
     z-index: 6;
 
 }
